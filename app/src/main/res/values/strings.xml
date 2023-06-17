@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Perkuliahan</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Perkuliahan</string>
+    <string name="nav_header_subtitle">kuliah@unpas.ac.id</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_refresh">Refresh</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_dosen">Dosen</string>
+    <string name="menu_mahasiswa">Mahasiswa</string>
+    <string name="menu_matkul">Mata Kuliah</string>
+    <string name="menu_anggota">Anggota</string>
+</resources>

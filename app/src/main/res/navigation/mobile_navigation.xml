@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.unpas.kuliah.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_dosen"
+        android:name="com.unpas.kuliah.ui.dosen.DosenFragment"
+        android:label="@string/menu_dosen"
+        tools:layout="@layout/fragment_dosen" />
+
+    <fragment
+        android:id="@+id/nav_mahasiswa"
+        android:name="com.unpas.kuliah.ui.mahasiswa.MahasiswaFragment"
+        android:label="@string/menu_mahasiswa"
+        tools:layout="@layout/fragment_mahasiswa" />
+
+    <fragment
+        android:id="@+id/nav_matakuliah"
+        android:name="com.unpas.kuliah.ui.matakuliah.MataKuliahFragment"
+        android:label="@string/menu_matkul"
+        tools:layout="@layout/fragment_matkul" />
+
+    <fragment
+        android:id="@+id/nav_anggota"
+        android:name="com.unpas.kuliah.ui.anggota.AnggotaFragment"
+        android:label="@string/menu_anggota"
+        tools:layout="@layout/fragment_anggota" />
+</navigation>
